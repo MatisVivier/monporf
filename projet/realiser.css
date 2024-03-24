@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0B162C;
+}
+
+header {
+    background-color: #3B556D;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: #0B162C;
+    color: white;
+
+}
+
+.return-link {
+    margin-bottom: 20px;
+}
+
+.return-link a {
+    text-decoration: none;
+    color: white;
+    background-color: #3B556D;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.return-link a:hover {
+    color: white;
+    background-color: #5e7992;
+    text-decoration: none;
+}
+
+.project-details {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-inline: 10%;
+}
+
+.project-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project-description h2 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.related-projects{
+    justify-content: center;
+    text-align: center;
+}
+.related-projects h2{
+    font-size: 22px;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.related-projects  {
+    padding: 10px;
+    color: black;
+}
+
+.project-thumbnail {
+    margin-bottom: 10px;
+}
+
+.project-thumbnail figure {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 250px; /* Largeur maximale réduite */
+    height: 300px;
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+.project-thumbnail figure img {
+    width: 100%;
+    height: auto;
+}
+
+.project-thumbnail figure figcaption {
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.project-thumbnail figure figcaption h3 {
+    margin-top: 0;
+    font-size: 14px; /* Taille de police réduite */
+}
+
+.project-thumbnail figure figcaption p {
+    margin-bottom: 5px;
+    font-size: 12px; /* Taille de police réduite */
+}
+
+.project-thumbnail figure figcaption a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px; /* Taille de police réduite */
+    margin-top: 3px;
+}
+
+.project-thumbnail figure figcaption a:hover {
+    background-color: #0056b3;
+}
+
+.project-image img {
+    max-width: 50%;
+}
+
+.project-info {
+    flex: 2;
+}
+
+.project-info h2 {
+    margin-top: 0;
+}
+
+.project-info p {
+    line-height: 1.6;
+}
+
+.project-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-info ul li {
+    margin-bottom: 5px;
+}
+
+.other-projects {
+    margin-top: 20px;
+}
+
+.other-projects h2 {
+    margin-top: 0;
+}
+
+.project-thumbnail {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project-thumbnail img {
+    max-width: 100%;
+}
+
+.project-thumbnail h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.project-thumbnail a {
+    text-decoration: none;
+    color: #333;
+}
+
+.language-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.language-images img {
+    width: 50px; /* Taille des images */
+    margin: 0 10px; /* Espacement entre les images */
+    margin-bottom: 5%;
+}
+
+
+.red-text{
+    color: red;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+.orange-border {
+    border: 2px solid orange; 
+}
+
+.orange-text{
+    color: orange;
+}
+
+.yellow-border {
+    border: 2px solid yellow
+}
+.yellow-text{
+    color: black;
+}
+
+.green-border {
+    border: 2px solid green
+}
+.green-text{
+    color: green;
+}
+
+.primary-border {
+    border: 2px solid #007bff 
+}
+
+.dark-border {
+    border: 2px solid black; 
+}
+
+
