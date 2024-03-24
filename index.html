@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio De Matis</title>
+      <link rel="stylesheet" href="main.css" type="text/css">
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Inclure Popper.js (nécessaire pour Bootstrap JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <!-- Inclure Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </head>
+
+   
+   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav" style="z-index: 99; background-color: #192844;">        
+        <div class="container"> <!-- Ajout d'un conteneur pour centrer le contenu -->
+            
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive"> <!-- Utilisation de justify-content-center pour centrer le contenu -->
+                <ul class="navbar-nav align-items-center" style="text-transform: uppercase;"> <!-- Utilisation de align-items-center pour aligner verticalement le contenu -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#section2"><img src="image/moi.JPG" style="width: 100%; height: 150px; border: 5px solid #0B162C; border-radius: 100%;"> </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#section2">Présentation </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#parcours">Parcours </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hard">Hard Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#soft">Soft Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projet">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="CV-MatisVivier.pdf" target="_blank">CV</a></li>
+                </ul>
+            </div>
+        </div> <!-- Fermeture du conteneur -->
+    </nav>
+    
+     <div class="main-content">
+        
+    
+      
+      <div class="contain" id="section2" style="margin-top: -3%;">
+         <div class="Présentation">
+            <div class="Présentation-texte">
+               <h3 style="margin-bottom: 2%;">Présentation</h3>
+               <h2 style="margin-bottom: 2%;">Je suis Matis Vivier un étudiant en deuxième année <br>de BUT Informatique à l'IUT de Champs Sur Marne et <br>en alternance chez Groupama Support et Service <br> à Puteaux en tant que développeur PHP</h2>
+               <h2 style="font-size:20px; margin-top: 4%;  margin-bottom: -2%; padding-left: 10%; padding-right: 10%; font-style: italic;" >Le programme d'études en informatique du BUT comprend six compétences distinctes que nous sommes tenus de valider. Chacune de ces compétences est unique et offre une opportunité de développement dans divers domaines, nous préparant ainsi de manière approfondie pour notre avenir professionnel.</h2>
+               <h4 style="margin-bottom: -2%;">Compétences du BUT Info</h4>
+            </div>
+
+            <div class="competence-but">
+               <div class="rectangle" style="background-color: #b80905;" onclick="afficherModale(1)">Réaliser</div>
+               <div class="rectangle" style="background-color: #ed8c51; color: black;" onclick="afficherModale(2)">Optimiser</div>
+               <div class="rectangle" style="background-color: #efba11; color: black;" onclick="afficherModale(3)">Administrer</div>
+               <div class="rectangle" style="background-color: #8cc850; color: black;" onclick="afficherModale(4)">Gérer</div>
+               <div class="rectangle" style="background-color: #0a215e;" onclick="afficherModale(5)">Conduire</div>
+               <div class="rectangle" style="background-color: #191711;" onclick="afficherModale(6)">Collaborer</div>
+            </div>
+
+            <!-- Modales -->
+            <div id="modal1" class="modal custom-modal" style="color: white;">
+               <div class="modal-dialog modal-lg">
+                   <div class="modal-content" style="border: 2px solid #b80905; background-color: #0B162C;">
+                       <div class="modal-header">
+                           <h4 class="modal-title">Développement / Réalisation</h4>
+                           <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                        </div>
+                       <div class="modal-body">
+                           <p>Cette compétence permet de :</p>
+                           <ul>
+                               <li>Concevoir / coder / tester / Intégrer</li>
+                               <li>Une solution informatique pour un client</li>
+                           </ul>
+                           <p>Il faut savoir :</p>
+                           <ul>
+                               <li>Elaborer et implémenter les spécifications fonctionnelles à partir des exigences</li>
+                               <li>Appliquer des principes d'accessibilité et d'ergonomie</li>
+                               <li>Adopter de bonnes pratiques de conception et de programmation</li>
+                               <li>Vérifier et valider la qualité de l'application par les tests</li>
+                           </ul>
+                           <p>Situations professionnelles :</p>
+                           <ul>
+                               <li>Elaborer une application informatique</li>
+                               <li>Faire évoluer une application informatique</li>
+                               <li>Maintenir en conditions opérationnelles une application informatique</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+           <div id="modal2" class="modal custom-modal" style="color: white;">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content" style="border: 2px solid #ed8c51; background-color: #0B162C;">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Optimisation / Précision</h4>
+                        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Cette compétence permet de proposer des applications informatiques optimisées en fonction de critères spécifiques :</p>
+                        <ul>
+                            <li>Temps d'exécution</li>
+                            <li>Précision</li>
+                            <li>Consommation de Ressources</li>
+                            <!-- Ajoutez d'autres critères au besoin -->
+                        </ul>
+                        <p>Il faut savoir :</p>
+                        <ul>
+                            <li>Choisir des structures de données complexes adaptées au problème</li>
+                            <li>Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (IA, Recherches, etc.)</li>
+                            <li>Comprendre les enjeux et moyens de sécurisation des données et du code</li>
+                            <li>Évaluer l'impact environnemental et sociétal des solutions proposées</li>
+                        </ul>
+                        <p>Situations professionnelles :</p>
+                        <ul>
+                            <li>Améliorer les performances des programmes dans des contextes contraints</li>
+                            <li>Limiter l'impact environnemental d'une application informatique</li>
+                            <li>Mettre en place des applications informatiques adaptées et efficaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="modal3" class="modal custom-modal" style="color: white;">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content" style="border: 2px solid #efba11; background-color: #0B162C;">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Installation / Configuration</h4>
+                        <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Cette compétence permet de :</p>
+                        <ul>
+                            <li>Configurer</li>
+                            <li>Installer</li>
+                            <li>Mettre à disposition</li>
+                            <li>Maintenir en conditions</li>
+                            <li>Optimiser le système informatique d'une organisation</li>
+                        </ul>
+                        <p>Il faut savoir :</p>
+                        <ul>
+                            <li>Concevoir et développer des applications communicantes</li>
+                            <li>Utiliser des serveurs et des services réseaux virtualisés</li>
+                            <li>Sécuriser les services et données d'un système</li>
+                        </ul>
+                        <p>Situations professionnelles :</p>
+                        <ul>
+                            <li>Déployer une nouvelle architecture technique</li>
+                            <li>Améliorer une infrastructure existante</li>
+                            <li>Sécuriser les applications et les services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <div id="modal4" class="modal custom-modal" style="color: white;">
+         <div class="modal-dialog modal-lg">
+             <div class="modal-content" style="border: 2px solid #8cc850; background-color: #0B162C;">
+                 <div class="modal-header">
+                     <h4 class="modal-title">Gestion / Conception</h4>
+                     <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                 <div class="modal-body">
+                     <p>Cette compétence permet de :</p>
+                     <ul>
+                         <li>Concevoir</li>
+                         <li>Gérer</li>
+                         <li>Administrer</li>
+                         <li>Exploiter des données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise</li>
+                     </ul>
+                     <p>Il faut savoir :</p>
+                     <ul>
+                         <li>Optimiser les modèles de données de l'entreprise</li>
+                         <li>Assurer la sécurité des données</li>
+                         <li>Organiser la restitution de données à travers la programmation et la visualisation</li>
+                         <li>Manipuler des données hétérogènes</li>
+                     </ul>
+                     <p>Situations professionnelles :</p>
+                     <ul>
+                         <li>Lancer un nouveau projet</li>
+                         <li>Sécuriser des données</li>
+                         <li>Exploiter des données pour la prise de décisions</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+     <div id="modal5" class="modal custom-modal" style="color: white;">
+         <div class="modal-dialog modal-lg">
+             <div class="modal-content" style="border: 2px solid #0a215e; background-color: #0B162C;">
+                 <div class="modal-header">
+                     <h4 class="modal-title">Pilotage / Organisation</h4>
+                     <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                 <div class="modal-body">
+                     <p>Cette compétence permet de :</p>
+                     <ul>
+                         <li>Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client et organiser et piloter un projet informatique avec des méthodes classiques ou agiles</li>
+                     </ul>
+                     <p>Il faut savoir :</p>
+                     <ul>
+                         <li>Identifier les processus présents dans une organisation en d'améliorer les systèmes d'information</li>
+                         <li>Formaliser les besoins du client de l'utilisateur</li>
+                         <li>Identifier les critères de faisabilité d'un projet informatique</li>
+                         <li>Définir et mettre en œuvre une démarche de suivi de projet</li>
+                     </ul>
+                     <p>Situations professionnelles :</p>
+                     <ul>
+                         <li>Lancer un nouveau projet</li>
+                         <li>Piloter le maintien d'un projet en condition opérationnelle</li>
+                         <li>Faire évoluer un systèmes d'information</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+     <div id="modal6" class="modal custom-modal" style="color: white;">
+         <div class="modal-dialog modal-lg">
+             <div class="modal-content" style="border: 2px solid #191711; background-color: #0B162C;">
+                 <div class="modal-header">
+                     <h4 class="modal-title">Collaboration / Efficacité</h4>
+                     <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                 <div class="modal-body">
+                     <p>Cette compétence permet de :</p>
+                     <ul>
+                         <li>Développer</li>
+                         <li>Acquérir</li>
+                         <li>Exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique</li>
+                     </ul>
+                     <p>Il faut savoir :</p>
+                     <ul>
+                         <li>Comprendre la diversité, la structure, et la dimension de l'informatique dans une organisation</li>
+                         <li>Appliquer une démarche pour intégrer une équipe informatique au sein d'une organisation</li>
+                         <li>Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique</li>
+                         <li>Rendre compte de son activité professionnelle</li>
+                     </ul>
+                     <p>Situations professionnelles :</p>
+                     <ul>
+                         <li>Lancer un nouveau projet</li>
+                         <li>Organiser son travail en relation avec celui de son équipe</li>
+                         <li>Elaborer, gérer, et transmettre de l'information</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+         </div>
+      </div>
+
+      <div class="contain-2" id="section3" >
+         <div class="Parcours" id="parcours">
+            <div class="Parcours-texte">
+               <h3 style="margin-top: -5%;">Parcours</h3>
+               <h2 style="margin-bottom: -30px;">Voici le déroulement de mon parcours <br>scolaire et professionnel</h2>
+            </div>
+           <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h2>2014-2017</h2>
+                    <p>Apprentissage de l'anglais à l'école américaine de Casablanca (CAS) au Maroc</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2019</h2>
+                    <p>Obtention du brevet avec mention assez bien (Académie Guadeloupe) à Saint-Martin</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2022</h2>
+                    <p>Obtention du bac Technologique (STI2D SIN) avec mention assez bien au Lycée Pierre de Coubertin à Meaux</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2022-2025</h2>
+                    <p>BUT Informatique à Champs sur Marne (Actuellement en 2éme année)</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2023</h2>
+                    <p>Début de l'alternance en PHP/WEB à Groupama Support et Service à Puteaux</p>
+                </div>
+            </div>
+            <div class="ligne-temps"></div>
+        </div>
+         </div>
+         
+         
+      </div>
+
+      <div class="contain-3" id="section3" style="margin-top: -22%; ">
+        <h3 id="hard">Hard Skills</h3>
+        <div class="center-bloc" style="margin-bottom: 5%; margin-left: 5%; ">
+            <div class="img-1" data-tippy-content="HTML">
+               <div class="text">CSS3</div>
+            </div>
+            <div class="img-2">
+               <div class="text">HTML5</div>
+            </div>
+            <div class="img-3">
+               <div class="text">Python</div>
+            </div>
+            <div class="img-5">
+               <div class="text">SQL</div>
+            </div>
+            <div class="img-7">
+               <div class="text">Java</div>
+            </div>
+            <div class="img-6">
+               <div class="text">C</div>
+            </div>
+            <div class="img-4">
+               <div class="text" style="margin-left: -10px;">JavaScript</div>
+            </div>
+            <div class="img-8" style="margin-right: 5%;">
+                <div class="text">Github</div>
+             </div>
+             <div class="img-15" style="margin-right: 5%;">
+                <div class="text">Lua</div>
+             </div>
+             <div class="img-16" style="margin-right: 5%;">
+                <div class="text">Figma</div>
+             </div>
+             <div class="img-17" style="margin-right: 5%;">
+                <div class="text">Git</div>
+             </div>
+         </div>
+         <h3 id="soft">Soft Skills</h3>
+        <div class="center-bloc" style="margin-bottom: 12%; margin-left: 5%;">
+            <div class="img-9" data-tippy-content="HTML">
+               <div class="text" style="margin-left: -10px;">Motivation</div>
+            </div>
+            <div class="img-10" >
+               <div class="text" style="margin-left: -20px;">Communication</div>
+            </div>
+            <div class="img-11">
+               <div class="text" style="margin-left: -10px;">Créativité</div>
+            </div>
+            <div class="img-12">
+               <div class="text" style="margin-left: -5px;">Pilotage</div>
+            </div>
+            <div class="img-13">
+               <div class="text" style="margin-left: -3px;">Gestion</div>
+            </div>
+            <div class="img-14">
+               <div class="text" style="margin-left: -3px;">Cohésion</div>
+            </div>
+         </div>
+         <h3 id="projet" style="margin-bottom: 50px; margin-top: -150px;">Projets</h3>
+         <div class="filters">
+            <button class="filter" data-filter="1" style="background-color: #b80905; color: white;">Réaliser</button>
+            <button class="filter" data-filter="2" style="background-color: #ed8c51;">Optimiser</button>
+            <button class="filter" data-filter="3" style="background-color: #efba11;">Administrer</button>
+            <button class="filter" data-filter="4" style="background-color: #8cc850;">Gérer</button>
+            <button class="filter" data-filter="5" style="background-color: #0a215e; color: white;">Conduire</button>
+            <button class="filter" data-filter="6" style="background-color: black; color: white;">Collaborer</button>
+        </div>
+        
+
+        <div class="projects" >
+            <!-- Réaliser-->
+            <div class="project" data-tags="1">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+                <div class="competence-type" style="background-color: #b80905;">Réaliser</div>
+                <img src="image/java_game.jpg" alt="Projet 1">
+                <h3>Java</h3>
+                <p>Réalisation d'un jeu en Java qui reprend le jeu BackPack Hero en utilisant une bibliothéque locale</p>
+                <div class="project-description">
+                  <a href="projet/java.html">En savoir plus</a>
+               </div>
+            </div>
+
+            <!--Optimiser-->
+            <div class="project" data-tags="2">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+                <div class="competence-type" style="background-color: #ed8c51; color: black;">Optimiser</div>
+                <img src="image/garde.jpg" alt="Projet 2">
+                <h3>Python</h3>
+                <p>Réalisation d'un jeu tour par tour en python en placant des boules de couleurs, il faut occuper le plus de place avec sa propre couleur</p>
+                <div class="project-description">
+                    <a href="projet/python.html">En savoir plus</a>
+                 </div>
+            </div>
+
+            <div class="project" data-tags="2">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:violet; margin-left: 36%;   color: black;">BUT 2</div>
+                <div class="competence-type" style="background-color: #ed8c51; color: black;">Optimiser</div>
+                <img src="image/graphe.png" alt="Projet 2">
+                <h3>Graphes</h3>
+                <p>Implémentation et création d'algorithmes vus en cours pour résoudres des graphes (Djikstra, parcours en largeur/longeurs, etc)</p>
+                <div class="project-description">
+                    <a href="projet/graphe.html">En savoir plus</a>
+                 </div>
+            </div>
+
+            <div class="project" data-tags="2">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+                <div class="competence-type" style="background-color: #ed8c51; color: black;">Optimiser</div>
+                <img src="image/automates.png" alt="Projet 2">
+                <h3>Automates</h3>
+                <p>Transformations et Implémentation d'algorithmes vu en cours en python en lien avec la théorie des graphes</p>
+                <div class="project-description">
+                    <a href="projet/automate.html">En savoir plus</a>
+                 </div>
+            </div>
+            
+            <!--Administrer-->
+
+            <div class="project" data-tags="3">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+                <div class="competence-type" style="background-color: #efba11; color: black;">Administrer</div>
+                <img src="image/dualboot.webp" alt="Projet 2">
+                <h3>DualBoot</h3>
+                <p>Faire un dualboot (windows à Linux) sur son ordinateur et faire un rapport qui répond à divers questions</p>
+                <div class="project-description">
+                 <a href="projet/dualboot.html">En savoir plus</a>
+              </div>
+            </div>
+
+            <!--Gérer-->
+            
+            <div class="project" data-tags="4">
+                <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+                <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+                <div class="competence-type" style="background-color: #8cc850; color: black;">Gérer</div>
+               <img src="image/conference.png" alt="Projet 2">
+               <h3>BDD</h3>
+               <p>Création d'une base de donnée compléte sur MSQL et POSTGRESQL pour répondre aux besoins d'un évennement de conférences.</p>
+               <div class="project-description">
+                <a href="projet/bdd.html">En savoir plus</a>
+             </div>
+           </div>
+
+           <div class="project" data-tags="4,5">
+            <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+            <div class="project-type" style="background-color:violet; margin-left: 36%;   color: black;">BUT 2</div>
+            <div class="competence-type" style="background-color: #8cc850; color: black;">Gérer</div>
+            <div class="competence-type" style="background-color: #0a215e; color: white; margin-right: 14%;">Piloter</div>
+            <img src="image/mali.png" alt="Projet 2">
+            <h3>Mali Bank</h3>
+            <p>Réalisation d'un portail web de gestion de paiement par carte bancaire en incluant différent utilisateurs</p>
+            <div class="project-description">
+             <a href="projet/mali.html">En savoir plus</a>
+          </div>
+        </div>
+
+        <!--piloter-->
+
+        <!--Conduire-->
+
+        
+        <div class="project" data-tags="6">
+            <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+            <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+            <div class="competence-type" style="background-color: black; color: white;">Conduire</div>
+            <img src="image/seville.jpg" alt="Projet 2">
+            <h3>Unesco</h3>
+            <p>Création d'un site web pour promouvoir une ville classé par l'UNESCO (Séville)</p>
+            <div class="project-description">
+            <a href="projet/unesco.html">En savoir plus</a>
+            </div>
+        </div>
+
+        <div class="project" data-tags="5,6">
+            <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+            <div class="project-type" style="background-color:violet; margin-left: 36%;   color: black;">BUT 2</div>
+            <div class="competence-type" style="background-color: black; color: white;">Conduire</div>
+            <div class="competence-type" style="background-color: #0a215e; color: white; margin-right: 20%;">Piloter</div>
+            <img src="image/semantix.png" alt="Projet 2">
+            <h3>Semantix</h3>
+            <p>Réalisation d'une interface web et d'un serveur web contenant un jeu de similarité de mot en C et en Java</p>
+            <div class="project-description">
+                <a href="projet/semantix.html">En savoir plus</a>
+             </div>
+        </div>
+
+        <div class="project" data-tags="5,6">
+            <div class="project-type" style="background-color:aquamarine; color: black;">Projet universitaire</div>
+            <div class="project-type" style="background-color:pink; margin-left: 36%;   color: black;">BUT 1</div>
+            <div class="competence-type" style="background-color: black; color: white;">Conduire</div>
+            <div class="competence-type" style="background-color: #0a215e; color: white; margin-right: 20%;">Piloter</div>
+            <img src="image/ihm.png" alt="Projet 2">
+            <h3>Interface Homme Machine</h3>
+            <p>Réalisation d'une maquette de site web / application mobile pour gérer un site évennementiel d'une commune</p>
+            <div class="project-description">
+                <a href="projet/ihm.html">En savoir plus</a>
+             </div>
+        </div>
+         
+        </div>        
+     </div>
+     
+     
+        
+      </div>
+
+   </body>
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<div id="contact" class="my-5 section-background text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="mb-4" style="margin-left: 25%; width: 100%; margin-top: 8%;">Contactez-moi</h2>
+                <form id="contact-form" method="post"
+                    action="envoyer_mail.php" role="form" style="text-align: left;">
+                    <div class="form-group">
+                        <label for="nom">Nom <b>*</b></label>
+                        <input type="text" class="form-control"
+                            id="nom" name="nom"
+                            placeholder="Matis" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom <b>*</b></label>
+                        <input type="text" class="form-control"
+                            id="prenom" name="prenom"
+                            placeholder="Vivier" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <b>*</b></label>
+                        <input type="email" class="form-control"
+                            id="email" name="email"
+                            placeholder="matis.vivier@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="objet">Objet <b>*</b></label>
+                        <input type="objet" class="form-control"
+                            id="objet" name="objet"
+                            placeholder="Question sur le projet Unesco" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="body">Message <b>*</b></label>
+                        <textarea class="form-control" id="body"
+                            name="body" rows="4"
+                            placeholder="Comment avez-vous réalisez ce projet ?" required></textarea>
+                    </div>
+                    <button type="submit" style="margin-left: 65%; margin-bottom: 10%;" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</html>

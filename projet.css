@@ -1,0 +1,22 @@
+.contain {
+    height: 60vh;
+}
+
+
+.Projet-image {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Projet-image img {
+    width: 300px;
+    margin-right: 0 5px;
+}
+
+.title {
+    height: 10vh;
+}
+
+.container-titre {
+}
