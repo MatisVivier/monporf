@@ -63,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
 // Sélectionner tous les liens de navigation
 const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
@@ -76,11 +75,14 @@ window.addEventListener('scroll', () => {
         // Récupérer la section associée au lien
         const targetSection = document.getElementById(targetId);
         if (targetSection) {
-            // Vérifier si la section est visible à l'écran
+            // Récupérer les dimensions de la section et de la fenêtre
             const bounding = targetSection.getBoundingClientRect();
+            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+            
+            // Vérifier si la section est visible à l'écran
             if (
                 bounding.top >= 0 &&
-                bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+                bounding.bottom <= windowHeight
             ) {
                 // Si la section est visible, ajouter la classe 'active' au lien de navigation correspondant
                 link.classList.add('active');
@@ -91,6 +93,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
 
 
 
